@@ -7,7 +7,7 @@ RUN rustup toolchain add nightly
 RUN rustup default nightly
 RUN cargo +nightly install -f cargo-fuzz
 
-RUN RUSTFLAGS="-C target-cpu=native" cargo fuzz build real
+RUN cargo fuzz build real
 
 FROM ubuntu:20.04
 
