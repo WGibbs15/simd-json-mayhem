@@ -1,4 +1,4 @@
-project: wgibbs15/simd-json-fuzz
+project: simd-json-mayhem
 
 # Target name (should be unique within the project)
 target: simd-json-fuzz
